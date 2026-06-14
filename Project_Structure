@@ -1,0 +1,13 @@
+AI-Knowledge-Assistant/
+│
+├── data/
+│   └── company_handbook.pdf
+│
+├── src/
+│   ├── pdf_reader.py
+│   ├── embeddings.py
+│   └── search.py
+│
+├── main.py
+├── requirements.txt
+└── README.md
