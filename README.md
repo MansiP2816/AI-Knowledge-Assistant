@@ -1,10 +1,42 @@
-# AI-Knowledge-Assistant
-RAG-based AI Knowledge Assistant using Python, FAISS, and OpenAI
-Demo
-Query
+AI Knowledge Assistant
 
-"What is the leave policy?"
+A simple Retrieval-Augmented Generation (RAG) application built using:
 
-Response
+- Python
+- OpenAI
+- FAISS
+- Sentence Transformers
 
-Employees are entitled to...
+Features
+
+- PDF document ingestion
+- Text chunking
+- Vector embeddings
+- Semantic search
+- GPT-powered answers
+
+Installation
+
+pip install -r requirements.txt
+
+Run
+
+python main.py
+
+Architecture
+
+PDF
+ ↓
+Text Extraction
+ ↓
+Chunking
+ ↓
+Embeddings
+ ↓
+FAISS
+ ↓
+Semantic Search
+ ↓
+GPT
+ ↓
+Answer
